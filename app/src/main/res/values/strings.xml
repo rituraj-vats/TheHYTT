@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">The HYTT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">705518199576871</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="btnSignIN">LOG IN</string>
+    <string name="btnSignUP">SIGN UP</string>
+
+
+    <string name="msgEmail">Email</string>
+    <string name="msgPassword">Password</string>
+
+    <string name="msgDestination">Destination</string>
+    <string name="msgPrice">Price</string>
+    <string name="btnGo">GO</string>
+    <string name="km">KM</string>
+    <string name="btnHop">Hop</string>
+    <string name="btnPost">Post</string>
+
+    <string name="labelFrom">From :</string>
+    <string name="labelTo">To :</string>
+    <string name="labelDistance">Distance :</string>
+    <string name="labelprice">Price :</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="nav_item_journeys">Journey Details</string>
+    <string name="nav_item_notifications">Messages</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_item_logout">Logout</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_journeys</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_settings</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@mipmap/home_icon</item>
+        <item>@mipmap/profie_icon</item>
+        <item>@mipmap/journey_icon</item>
+        <item>@mipmap/notification_icon</item>
+        <item>@mipmap/setting_icon</item>
+        <item>@mipmap/lock_icon</item>
+    </string-array>
+    <!-- Register validation -->
+    <string name="msgRegMailIDBlanck">Please enter valid email id</string>
+    <string name="msgRegPassBlanck">password</string>
+    <string name="msgRegPassFullBlanck">Please enter password</string>
+    <string name="msgRegConfPassBlanck">confirm password</string>
+    <string name="msgRegConfPassFullBlanck">Please enter confirm password</string>
+    <string name="msgRegPassMismatchBlanck">Password mismatch.Please try again</string>
+    <string name="msgRegCreatingUser">Creating User...</string>
+    <string name="msgRegSignInUser">Sign In...</string>
+    <string name="msgResetingUser">Resetting the password...</string>
+    <string name="msgTitlRegInvalidPwd">Invalid password</string>
+    <string name="msgUserExists">User already exists. Please reset password.</string>
+
+    <!--Dialog titles-->
+    <string name="title_ok">Success</string>
+    <string name="title_info">Info..</string>
+    <string name="title_warning">Warning !!</string>
+    <string name="title_error">Error</string>
+
+    <!--location related messages-->
+    <string name="Title_gprs">Turn on Location Services to Allow Medinfi to determine your location</string>
+    <string name="Msg_gprs">Nearest doctors and hospitals will be shown based on your location.</string>
+    <string name="Msg_gprs_settings">Ok</string>
+    <string name="Msg_gprs_manual">Cancel</string>
+    <string name="Msg_Location">CURRENT LOCATION</string>
+    <string name="Msg_Location_Availability">Currently available only in</string>
+    <string name="Msg_Location_Available_City">Bengaluru, Delhi NCR &amp; Mumbai </string>
+    <string name="hint_choose_city">Choose City</string>
+    <string name="hint_choose_locality">Choose Locality</string>
+    <string name="btn_Upload">UPDATE</string>
+    <string name="label_city">SELECT CITY</string>
+    <string name="label_lacolity">SELECT LOCALITY</string>
+    <string name="label_auto_detected">AUTO-DETECT LOCATION</string>
+    <string name="Msg_GettingLoc">Getting location ...</string>
+
+    <!-- Validation -->
+    <string name="PleaseEnter">Please enter</string>
+    <string name="Invalid_EmailId">Please enter valid mail id.</string>
+    <string name="Empty_Password">Please enter password.</string>
+
+
+</resources>

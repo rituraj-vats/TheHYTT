@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/login_left_margin"
+    android:paddingRight="@dimen/login_right_margin"
+    android:paddingTop="@dimen/login_top_margin"
+    android:paddingBottom="@dimen/login_bottom_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/imgRounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/facebookFragment"
+        android:name="com.bitscanvas.thehytt.FacebookFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_between_margin"
+        tools:layout="@layout/facebook_fragment" />
+
+
+    <fragment
+        android:id="@+id/googleFragment"
+        android:name="com.bitscanvas.thehytt.GooglePlusFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_between_margin"
+        tools:layout="@layout/google_fragment" />
+
+    <fragment
+        android:id="@+id/customLoginFragment"
+        android:name="com.bitscanvas.thehytt.CustomLoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_between_margin"
+        tools:layout="@layout/custom_login_fragment" />
+
+</LinearLayout>
