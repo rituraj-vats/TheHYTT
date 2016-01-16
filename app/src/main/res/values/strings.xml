@@ -93,6 +93,15 @@
     <string name="PleaseEnter">Please enter</string>
     <string name="Invalid_EmailId">Please enter valid mail id.</string>
     <string name="Empty_Password">Please enter password.</string>
+    
+    <!-- Versoin 2.1-->
+    
+    <string name="app_details">Lorem Ipsum is simply dummy text of the printing and </string>
+    <string name="already_us">Already with us?</string>
+    <string name="app_login">Login</string>
+    <string name="join_now">Join Now</string>
+    <string name="new_user">New with us?</string>
+
 
 
 </resources>

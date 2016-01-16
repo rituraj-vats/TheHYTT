@@ -60,13 +60,15 @@ public class SignUp extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.signup_layout);
-        checkPlayServices();
+        setContentView(R.layout.sign_up_new);
+       /* checkPlayServices();
         loadView();
-        loadSignUpRequest();
+        loadSignUpRequest();*/
     }
 
-
+    public void onReturn(View view) {
+        finish();
+    }
     public void loadView(){
         profileImage = (ImageView)findViewById(R.id.imgProfilePic);
         firstName = (EditText)findViewById(R.id.firstName);

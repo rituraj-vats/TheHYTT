@@ -152,5 +152,9 @@
     <color name="list_divider">#272727</color>
     <!--custom color-->
     <color name="buttonbg">#FFFFDC44</color>
+    <color name="auth_divider_line">#AAAAAA</color>
+    <color name="auth_button_bg">#40FFFFFF</color>
+    <color name="login_transperent_bg">#4D000000</color>
+
 
 </resources>
